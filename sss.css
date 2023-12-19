@@ -1,0 +1,155 @@
+/* style1.css */
+
+/* Responsive Styles */
+
+/* Mobile devices */
+@media only screen and (max-width: 480px) {
+  .container {
+    gap: 20px;
+  }
+
+  .main {
+    width: 100%;
+  }
+
+  header {
+    display: none;
+  }
+  .header-mobile {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .head-mobile{
+    display: flex;
+    align-items: center;
+    width: 95%;
+    justify-content: center;
+  }
+  nav ul li a{
+    font-size: 11px;
+  }
+  .logo-mobile {
+    width: 20%;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+  }
+  .logo-mobile img{
+    width: 100%;
+    height: 100%;
+  }
+  .shop {
+    margin-top: 0px;
+    gap: 150px 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .item {
+    width: 85%;
+  }
+
+  .item img {
+    filter: none;
+    width: 100%;
+  }
+
+  .item-content {
+    padding: 10px;
+  }
+  footer{
+    height: auto;
+    padding-bottom: 10px;
+  }
+  .foot {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  .f-contact{
+    justify-content: center;
+    align-items: center;
+  }
+
+  .f-logo {
+    width: 50%;
+    height: auto;
+  }
+
+  .f-content {
+    width: 100%;
+  }
+
+  .f-contact {
+    width: 100%;
+  }
+}
+
+/* Tablets and small desktops */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .head {
+    gap: 10px;
+  }
+
+  nav ul {
+    gap: 15px;
+  }
+
+  .shop {
+    gap: 150px 0;
+  }
+
+  .item {
+    width: 48%;
+  }
+  footer{
+    height: auto;
+  }
+  .f-logo {
+    width: 30%;
+  }
+
+  .f-content {
+    width: 60%;
+  }
+
+  .f-contact {
+    width: 30%;
+    margin-left: 2px;
+  }
+}
+
+/* Larger desktops */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .head {
+    gap: 20px;
+  }
+
+  nav ul {
+    gap: 20px;
+  }
+
+  .shop {
+    gap: 150px 50px;
+    justify-content: unset;
+  }
+
+  .item {
+    width: 28%;
+  }
+
+  .f-logo {
+    width: 20%;
+  }
+
+  .f-content {
+    width: 40%;
+  }
+
+  .f-contact {
+    width: 20%;
+  }
+}
